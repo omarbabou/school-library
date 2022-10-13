@@ -1,6 +1,6 @@
 require './book'
 require './classroom'
-require './per_son'
+require './person'
 require './rental'
 require './student'
 require './teacher'
@@ -122,3 +122,4 @@ class App
     end
   end
 end
+Footer

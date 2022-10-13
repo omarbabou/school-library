@@ -1,6 +1,6 @@
 class Rental
-  def initialize(data, book, person)
-    @data = data
+  def initialize(date, book, person)
+    @date = date
     @person = person
     @book = book
     person.rentals << self

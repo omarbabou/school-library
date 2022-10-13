@@ -20,7 +20,7 @@ class App
 
   def all_peoplelist
     puts 'No people found!' if @people.empty?
-    @people.each { |person| puts "[#{person.class}], Age: #{person.name}, Name: #{person.age}, Id: #{person.id}" }
+    @people.each { |person| puts "[#{person.class}], Age: #{person.age}, Name: #{person.name}, Id: #{person.id}" }
   end
 
   def create_person

@@ -121,4 +121,3 @@ class App
     end
   end
 end
-Footer

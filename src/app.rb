@@ -59,7 +59,7 @@ class App
 
     print 'student classroom: '
     classroom = gets.chomp
-  
+
     print 'student name: '
     name = gets.chomp
 

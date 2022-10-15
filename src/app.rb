@@ -57,6 +57,9 @@ class App
     print 'student age: '
     age = gets.chomp
 
+    print 'student classroom: '
+    classroom = gets.chomp
+  
     print 'student name: '
     name = gets.chomp
 
@@ -65,10 +68,10 @@ class App
 
     case parent_permission
     when 'no'
-      student = Student.new(age, name, parent_permission: false)
+      student = Student.new(age, classroom, name, parent_permission: false)
       @people.push(student)
     when 'yes'
-      student = Student.new(age, name, parent_permission: true)
+      student = Student.new(age, classroom, name, parent_permission: true)
       @people.push(student)
     end
     puts 'New student was created successfully'

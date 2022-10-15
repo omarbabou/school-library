@@ -11,6 +11,5 @@ class Rental
     book.rentals.push(self)
   end
 
-  attr_accessor :date, :book, :person
-  attr_reader :rentals
+  attr_accessor :date, :book, :person, :rentals
 end

@@ -31,6 +31,7 @@ class App
     gets.chomp
   end
 
+  # rubocop:disable Style/CyclomaticComplexity
   def selection
     case list_selections
     when '1'
@@ -54,3 +55,4 @@ class App
     selection
   end
 end
+# rubocop:enable Style/CyclomaticComplexity

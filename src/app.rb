@@ -4,6 +4,8 @@ require './person'
 require './rental'
 require './student'
 require './teacher'
+require './people'
+require './rent'
 
 class App
   def initialize

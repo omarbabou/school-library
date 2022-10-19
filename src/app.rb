@@ -47,7 +47,7 @@ class App
       @rentals.rentalslist
     when '7'
       puts 'Thank you for using the app. Goodbye!'
-      exit  
+      exit
     else
       puts 'Invalid input. Try again'
     end

@@ -10,7 +10,7 @@ class Student < Person
   attr_accessor :parent_permission
 
   def play_hooky
-    "¯\(ツ)/¯"
+    '¯\(ツ)/¯'
   end
 
   def classroom=(classroom)

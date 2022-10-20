@@ -25,7 +25,7 @@ describe Student do
 
   describe '#should play hooky ?' do
     it 'if it plays hooky ¯\(ツ)/¯' do
-      expect(@student.play_hooky).to eql("¯\(ツ)/¯")
+      expect(@student.play_hooky).to eql('¯\(ツ)/¯')
     end
   end
 end
